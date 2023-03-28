@@ -7,6 +7,4 @@ create table kma_weather(
 	kw_wfKor varchar2(10 char) not null
 );
 
-drop table kma_weather cascade constraint purge;
-
 select * from kma_weather;
